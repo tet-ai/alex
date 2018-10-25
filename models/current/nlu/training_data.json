@@ -1,0 +1,160 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "self_identify",
+        "text": "i am"
+      },
+      {
+        "intent": "self_identify",
+        "text": "my name is"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "could you give me your name?"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "what is your name?"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "what is your address?"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "what is your home address?"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "what is your telephone number?"
+      },
+      {
+        "intent": "confirm_identity",
+        "text": "when is your birthday?"
+      },
+      {
+        "intent": "ask_consent",
+        "text": "is that ok with you?"
+      },
+      {
+        "intent": "ask_consent",
+        "text": "will that be alright with you?"
+      },
+      {
+        "intent": "ask_consent",
+        "text": "do you feel well enough to talk now?"
+      },
+      {
+        "intent": "ask_problem",
+        "text": "what brings you to hospital today?"
+      },
+      {
+        "intent": "ask_problem",
+        "text": "what's the main problem?"
+      },
+      {
+        "intent": "ask_problem",
+        "text": "why are you here today?"
+      },
+      {
+        "intent": "ask_problem",
+        "text": "what can i help you with?"
+      },
+      {
+        "intent": "ask_problem",
+        "text": "can you tell me a little about how you ended up in hospital?"
+      },
+      {
+        "intent": "assess_understanding",
+        "text": "do you understand?"
+      },
+      {
+        "intent": "assess_understanding",
+        "text": "do you know what you have to do?"
+      },
+      {
+        "intent": "assess_understanding",
+        "text": "is that clear?"
+      },
+      {
+        "intent": "assess_understanding",
+        "text": "is that obvious?"
+      },
+      {
+        "intent": "any_questions",
+        "text": "do you have any questions?"
+      },
+      {
+        "intent": "any_questions",
+        "text": "is there anything else I can help you with today?"
+      },
+      {
+        "intent": "any_questions",
+        "text": "is there anything else you would like to discuss?"
+      },
+      {
+        "intent": "follow_up",
+        "text": "i will need to see you again"
+      },
+      {
+        "intent": "follow_up",
+        "text": "there will be a follow up"
+      },
+      {
+        "intent": "follow_up",
+        "text": "let's arrange another meeting"
+      },
+      {
+        "intent": "follow_up",
+        "text": "when would be good to meet again?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

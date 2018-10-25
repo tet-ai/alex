@@ -1,0 +1,25 @@
+{
+  "states": [
+    "intent_any_questions",
+    "intent_ask_consent",
+    "intent_ask_problem",
+    "intent_assess_understanding",
+    "intent_confirm_identity",
+    "intent_follow_up",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_self_identify",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_greet_name",
+    "prev_utter_identity",
+    "prev_utter_consent",
+    "prev_utter_problem",
+    "prev_utter_understanding",
+    "prev_utter_any_questions",
+    "prev_utter_follow_up",
+    "prev_utter_goodbye"
+  ]
+}
