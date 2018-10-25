@@ -4,8 +4,6 @@ Alex is a first attempt to create a patient chatbot, allowing medical students -
 
 There are two main parts: the dialogue model and the NLU model. The NLU model can take natural language and convert it into structured data that a computer can understand. The dialogue model takes this structured data and chooses a suitable reply to it.
 
-For a quickstart tutorial go [here](https://rasa.com/docs/core/quickstart/).
-
 ## Setup
 
 ### The All-in-One
@@ -84,10 +82,12 @@ For a quickstart tutorial go [here](https://rasa.com/docs/core/quickstart/).
     python -m rasa_core.run -d models/dialogue -u models/current/nlu
     ```
 
-## Shortcuts for Me
+## Retraining the chatbot
+
+If you make changes to the chatbot, you will need to retrain it.
 
 ```bash
-python3 -m rasa_core.run -d models/dialogue -u models/current/nlu
+python3 -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
 python3 -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 python3 -m rasa_core.run -d models/dialogue -u models/current/nlu
 ```
