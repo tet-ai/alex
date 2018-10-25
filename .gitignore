@@ -15,6 +15,9 @@ uploads
 ### git ###
 .gitattributes
 
+### wtfk ###
+Commands.txt
+
 # Created by https://www.gitignore.io/api/vim,linux,macos,python
 
 ### Linux ###
