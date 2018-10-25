@@ -2,14 +2,18 @@
 /bot_rasa/models
 rasa_core.log
 
+models/
+
 ### Rocketchat ###
 
 /data
 uploads
 
 ### VS Code ###
-vscode/
+.vscode/
 
+### git ###
+.gitattributes
 
 # Created by https://www.gitignore.io/api/vim,linux,macos,python
 
