@@ -4,6 +4,10 @@ rasa_core.log
 
 models/
 
+#### cos they're secret ####
+credentials.yml
+index.js
+
 ### Rocketchat ###
 
 /data
@@ -15,8 +19,16 @@ uploads
 ### git ###
 .gitattributes
 
+### venv ###
+.env/
+
 ### wtfk ###
 Commands.txt
+
+### js ###
+node_modules/
+
+
 
 # Created by https://www.gitignore.io/api/vim,linux,macos,python
 

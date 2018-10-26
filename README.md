@@ -12,7 +12,7 @@ There are two main parts: the dialogue model and the NLU model. The NLU model ca
 
     ```bash
     pip install rasa_core
-    pip install rasa_nlu[tensorflow]
+    pip install rasa_nlu[spacy]
     cd ~/
     git clone https://github.com/tet-ai/alex
     cd ~/alex/
@@ -29,7 +29,7 @@ There are two main parts: the dialogue model and the NLU model. The NLU model ca
 
     ```bash
     pip install rasa_core
-    pip install rasa_nlu[tensorflow]
+    pip install rasa_nlu[spacy]
     ```
 
     For more info or alternative installation methods, go [here](https://rasa.com/docs/core/installation/).
@@ -91,3 +91,53 @@ python3 -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
 python3 -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 python3 -m rasa_core.run -d models/dialogue -u models/current/nlu
 ```
+
+
+## Running for facebook
+
+If setting up with facebook, follow [these instructions](https://rasa.com/docs/core/0.9.8/tutorial_basics/).
+
+```bash
+python -m rasa_core.run -d models/dialogue -u models/current/nlu \
+   --port 5002 --connector facebook --credentials credentials.yml
+   ```
+
+```
+python -m rasa_core.run -d models/dialogue -u models/current/nlu \
+   --port 5002 --credentials credentials.yml
+```
+
+### To run locally for facebook
+
+1. Expose local link
+    ```bash
+    ngrok http 5002
+    ```
+    see [ngrok](https://ngrok.com/).
+
+    This makes random_name.ngrok.io point to localhost:5002
+
+1.  - Run virtual environment
+        ```bash
+        source .env/bin/activate
+        ```
+    
+    - Run Rasa
+        ```bash
+        python -m rasa_core.run -d models/dialogue -u models/current/nlu \
+        --port 5002 --credentials credentials.yml
+        ```
+
+1. Create webhook
+    ```bash
+    node index.js
+    ```
+
+1. Point facebook in the right direction
+    1. Go to application page on 'Facebook for developers'. Mine is [here](https://developers.facebook.com/apps/2161616560765921).
+    1. Webhooks
+    1. Edit subscription
+    1. Callback URL: 'random_name.ngrok.io/webhooks/facebook/webhook'
+
+1. Talk on messenger!
+    

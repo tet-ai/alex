@@ -1,0 +1,22 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "default",
+  "main": "index.js",
+  "scripts": {
+    "test": "default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "default"
+  },
+  "keywords": [
+    "default"
+  ],
+  "author": "default",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
