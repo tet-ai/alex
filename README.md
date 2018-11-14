@@ -1,10 +1,12 @@
-# Alex: Practice Chatbot for Tet.ai
+# Alex: Prototype Chatbot for [Tet.ai](https://www.tet.ai)
 
 ## Introduction
 
 Alex is a prototype patient chatbot, allowing medical students - and other would-be doctors - to practice patient-doctor interactions and their diagnostic skills.
 
 There are two main parts: the dialogue model and the NLU model. The NLU model can take natural language and convert it into structured data that a computer can understand. The dialogue model takes this structured data and chooses a suitable reply to it.
+
+It can be run either locally, using the terminal, or running on Facebook Messenger using a websocket hosted on Heroku.
 
 ## Setup
 
