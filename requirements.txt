@@ -25,7 +25,7 @@ en-core-web-sm==2.0.0
 fakeredis==0.10.3
 fbmessenger==5.3.1
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 Flask-JWT-Simple==0.0.3
 future==0.17.0
 gast==0.2.0
