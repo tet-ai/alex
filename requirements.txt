@@ -25,7 +25,7 @@ en-core-web-sm==2.0.0
 fakeredis==0.10.3
 fbmessenger==5.3.1
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 Flask-JWT-Simple==0.0.3
 future==0.17.0
 gast==0.2.0
@@ -39,7 +39,7 @@ hyperlink==18.0.0
 idna==2.7
 incremental==17.5.0
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 jsonpickle==0.9.6
 jsonschema==2.6.0
@@ -64,7 +64,7 @@ plac==0.9.6
 preshed==2.0.1
 prompt-toolkit==1.0.14
 protobuf==3.15.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyHamcrest==1.9.0
 PyInquirer==1.0.2
 PyJWT==1.6.4
@@ -78,7 +78,7 @@ python-engineio==2.3.2
 python-socketio==2.0.0
 python-telegram-bot==10.1.0
 pytz==2018.6
-PyYAML==3.13
+PyYAML==5.4
 rasa-core==0.11.12
 rasa-core-sdk==0.11.5
 rasa-nlu==0.13.7
@@ -108,9 +108,9 @@ Twisted==18.9.0
 typing==3.6.6
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.24
+urllib3==1.26.5
 wcwidth==0.1.7
 websocket-client==0.53.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wrapt==1.10.11
 zope.interface==4.6.0
