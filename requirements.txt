@@ -67,7 +67,7 @@ protobuf==3.15.0
 Pygments==2.7.4
 PyHamcrest==1.9.0
 PyInquirer==1.0.2
-PyJWT==1.6.4
+PyJWT==2.4.0
 pykwalify==1.6.0
 pymongo==3.7.2
 pyparsing==2.2.2
