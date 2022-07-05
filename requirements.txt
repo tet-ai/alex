@@ -107,7 +107,7 @@ twilio==6.19.1
 Twisted==22.4.0
 typing==3.6.6
 tzlocal==1.5.1
-ujson==5.2.0
+ujson==5.4.0
 urllib3==1.26.5
 wcwidth==0.1.7
 websocket-client==0.53.0
